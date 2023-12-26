@@ -1,3 +1,6 @@
 pip install streamlit
 pip install plotly
+pip install numpy
+pip install pandas
+
 
