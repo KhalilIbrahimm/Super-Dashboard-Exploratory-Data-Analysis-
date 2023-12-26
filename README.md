@@ -8,18 +8,18 @@
   1. Open your terminal or command prompt.
   2. Navigate to the project directory where you want to set up the virtual environment.
   3. Run the following command to create a new virtual environment:
-'''
+'''bash
 python3 -m venv venv
 '''
   - Here, venv is the name of the directory that will contain the virtual environment. You can replace the second venv with any name you prefer for your virtual environment.
 
 ## Activate the Virtual Environment:
 - On Windows, run:
-'''
+'''bash
 venv\Scripts\activate
 '''
 - On macOS and Linux, run:
-'''
+'''bash
 source venv/bin/activate
 '''
 
@@ -28,21 +28,21 @@ Once the virtual environment is activated, you'll typically see its name in your
 ## Install Dependencies from requirements.txt:
 - Ensure you have a requirements.txt file in your current directory.
 - Run the following command to install the dependencies:
-'''
+'''bash
 pip install -r requirements.txt
 '''
 - This will install all the packages and their respective versions defined in the requirements.txt file into the virtual environment.
 
 ## Verify Installed Packages:
 - To check that the correct packages have been installed, you can run:
-'''
+'''bash
 pip freeze
 '''
 - This will list all the installed packages and their versions.
 
 ## Deactivate the Virtual Environment:
 - When you're done working in the virtual environment, you can deactivate it by running:
-'''
+'''bash
 deactivate
 '''
 
